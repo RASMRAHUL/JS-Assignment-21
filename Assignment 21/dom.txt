@@ -1,0 +1,18 @@
+1. Select an <h2> tag with id of text and change its inner text to
+“Hello World”.
+
+const h2Element = document.querySelector('#text');
+h2Element.innerText = 'Hello World';
+
+2. Apply following style to the same h2 using Javascript DOM
+Method.
+colour: red,
+fontWeight: bold,
+textTransform: uppercase
+
+const h2Element = document.querySelector('#text');
+h2Element.style.color = 'red';
+h2Element.style.fontWeight = 'bold';
+h2Element.style.textTransform = 'uppercase';
+
+
